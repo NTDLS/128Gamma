@@ -1,0 +1,47 @@
+#include "windows.h"
+
+100 ICON "Resources/Program.Ico"
+
+100 DIALOG 302, 87, 169, 60
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_TOPMOST
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", 100, "BUTTON", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 64, 44, 40, 14
+ CONTROL "", 1000, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 72, 1, 95, 8
+ CONTROL "", 1001, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 72, 11, 95, 8
+ CONTROL "", 1002, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 72, 21, 95, 8
+ CONTROL "", 1003, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 72, 31, 95, 8
+ CONTROL "128Gamma Installer : ", 0, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 2, 1, 69, 8
+ CONTROL "Date Last Used : ", 0, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 2, 11, 69, 8
+ CONTROL "Time Last Used : ", 0, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 2, 21, 69, 8
+ CONTROL "Last User : ", 0, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 2, 31, 69, 8
+}
+
+1 VERSIONINFO 
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "FileDescription", "128Gamma Usage Query Utility\000"
+   VALUE "FileVersion", "1.0 - Not Revised\000\000"
+   VALUE "InternalName", "128Gamma Query\000"
+   VALUE "LegalCopyright", "Copyright © NetWorkDLS 2001\000\000"
+   VALUE "WebSite", "www.NetWorkDLS.com\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+ }
+
+}
+

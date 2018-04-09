@@ -1,0 +1,12 @@
+Registry.Dll
+_CreateKey		_CreateKey
+_DeleteKey		_DeleteKey
+_DeleteValue		_DeleteValue
+_GetBinaryValue		_GetBinaryValue
+_GetDWORDValue		_GetDWORDValue
+_GetStringValue		_GetStringValue
+_IsWinNTor2K		_IsWinNTor2K
+_LibMain@12		_LibMain@12
+_SetBinaryValue		_SetBinaryValue
+_SetDWORDValue		_SetDWORDValue
+_SetStringValue		_SetStringValue

@@ -1,0 +1,34 @@
+                       ---( 128Gamma Error Codes )----
+                          +/- December 17, 2001 -/+
+
+128Gamma.C
+	"Main: Error Setting Temporary Files. Error 1."
+
+BlowFish.H
+	"BlowFish: Could Not Open %s For Read. Error 2."
+	"BlowFish: File Contains No Data. Error 3."
+	"BlowFish: Could Not Open %s For Read. Error 4."
+	"BlowFish: Could Not Open %s For Write. Error 5."
+	"BlowFish: Could Not Open %s For Write. Error 6."
+
+Compression.C
+	"Compression: Bit Output Compression Error. Error 7."
+	"Compression: Could Not Open Source File. Error 8."
+	"Compression: Could Not Open Target File. Error 9."
+	"Compression: File Write Error. Error 10."
+	"Compression: Could Not Open Source File. Error 11."
+	"Compression: Could Not Open Target File. Error 12."
+	"Compression: File Read Error. Error 13."
+
+Functions.H
+	"PreCheckFile: File Does Not Exist. Error 14."
+	"PreCheckFile: File Does Not Allow Read Access. Error 15."
+	"PreCheckFile: Could Not Open Source For Read. Error: 16."
+
+PackFiles.H
+	"PackFiles: Could Not Open File For Write. Error 17."
+	"PackFiles: Could Not Open File For Read. Error 18."
+
+UnPackFiles.H
+	"UnPackFiles: Could Not Open File For Read. Error 19."
+	"UnPackFiles: Could Not Open File For Write. Error 20."

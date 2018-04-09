@@ -1,0 +1,14 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=128Gamma.chm
+Contents file=Table of Contents.hhc
+Default topic=Welcome.Html
+Display compile notes=No
+Display compile progress=No
+Index file=C:\Documents and Settings\Administrator\Desktop\128Gamma 3.5\Setup\Help\Index.hhk
+Language=0x409 English (United States)
+Title=128Gamma -NetWorkDLS
+
+
+[INFOTYPES]
+

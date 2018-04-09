@@ -1,0 +1,25 @@
+Windows.Dll
+_CenterWindow		_CenterWindow
+_CharInt		_CharInt
+_FileAccess		_FileAccess
+_GetText		_GetText
+_Get_CurrentDirectory		_Get_CurrentDirectory
+_Get_FileSize		_Get_FileSize
+_Get_LongDate		_Get_LongDate
+_Get_MachineName		_Get_MachineName
+_Get_OsVersion		_Get_OsVersion
+_Get_ShortDate		_Get_ShortDate
+_Get_SystemDirectory		_Get_SystemDirectory
+_Get_TempDirectory		_Get_TempDirectory
+_Get_Time		_Get_Time
+_Get_UserName		_Get_UserName
+_Get_WindowsDirectory		_Get_WindowsDirectory
+_IntChar		_IntChar
+_IsDirectory		_IsDirectory
+_IsMouseOver		_IsMouseOver
+_LCase		_LCase
+_LibMain@12		_LibMain@12
+_SetApplicationPriority		_SetApplicationPriority
+_SetColor@16		_SetColor@16
+_SetText		_SetText
+_UCase		_UCase

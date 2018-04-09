@@ -1,0 +1,29 @@
+
+Physical File Limitations :
+	Max Files   : 999,999
+	Max Folders : 999,999
+
+	Max Leingth Of Each File Name   : 999 (OS Limit : 256)
+	Max Leingth Of Each Folder Name : 999 (OS Limit : 256)
+
+	Max Size Of Each File   : 999,999,999 (Bytes)
+	Max Size Of Each Folder : 0           (Bytes)
+
+Speed On 550Mhz AuthenticAMD K62 :
+	Encrypt     : 4.6 MBps
+	Decrypt     : 4.7 MBps
+	Compress    : 1.1 MBps
+	Decompress  : 2.4 MBps
+	PackFiles   : 5.1 MBps
+	UnpackFiles : 5.0 MBps
+
+Required DLL's :
+	Shell32.Dll
+	Kernel32.Dll
+	User32.Dll
+	Gdi32.Dll 
+	Advapi32.Dll
+	Crtdll.Dll 
+	128Gamma.Dll //NetWorkDLS Supplied
+	BlowFish.Dll //NetWorkDLS Supplied
+	Registry.Dll //NetWorkDLS Supplied
